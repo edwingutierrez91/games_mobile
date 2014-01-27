@@ -21,7 +21,7 @@ lab2.start = function(){
     //Sky
     var sky_gradient = new lime.fill.LinearGradient().setDirection(0,0,1,1)
         .addColorStop (0,'#FFFFFF')
-        .addColorStop(1, '#2E9AFE');
+        .addColorStop(1, '#295364');
 
     var sky = new lime.Sprite().setSize(800,600).setPosition(0.0)
         .setAnchorPoint(0.0).setFill(sky_gradient);
